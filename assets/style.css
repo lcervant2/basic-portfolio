@@ -57,6 +57,19 @@ input[type=submit] {
 	text-transform: uppercase;
 }
 
+footer{
+	background-color: #545454;
+	font-style: italic;
+	color: #4aaaa5;
+	padding: 10px;
+	
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -194,3 +207,21 @@ input[type=submit] {
 	width: 60px;
 	height: 60px;
 }
+
+#wrapper{
+    width:100%;
+    max-width:900px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.social_icons{
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 15px;
+} 
+
